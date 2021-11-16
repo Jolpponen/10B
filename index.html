@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="FI">
+	<head>
+		<title>10B</title>
+		  <meta charset="utf-8">
+		   <link rel="stylesheet" href="styletable.css">
+	</head>
+<body>
+		<table>
+  <tr>
+    <th>Pohja</th>
+   	 <th>Täytteet</th> 
+  		  <th>Koko</th>
+   			 <th>Juusto</th>
+  </tr>
+  <tr>
+    <td>Ruis</td>
+   	 <td>Pepperoni</td>
+   		 <td>xs</td>
+   			 <td>Mozzarella</td>
+  </tr>
+  <tr>
+    <td colspan="2">Kaura</td>
+  	  <td>s</td>
+  		  <td>Emmental</td>
+  </tr>
+  <tr>
+    <td>Vehnä</td>
+   	 <td>Tonnikala</td>
+ 		   <td>m</td>
+   			 <td rowspan="2">Aura</td>
+  </tr>
+   <tr>
+  	  <td>Pannu</td>
+    		<td>Katkarapu</td>
+    <td>l</td>
+  </tr>
+</table>
+<br>
+<br>
+<form action="#" method="post">
+	<fieldset>
+		<legend>Henkilötiedot</legend>
+	<label>Etunimi:</label>
+		<input type="text" id="Etunimi" name="Etunimi" placeholder="syötä Etunimi" required>
+	<br>
+	<br>
+	<label>Sukunimi:</label>
+	<input type="text" id="Sukunimi" name="Sukunimi" placeholder="syötä Sukunimi" required>
+<br>
+	<br>
+		<label>Sähköposti:</label>
+		<input type="email" id="Sposti" name="Sposti" placeholder="Syötä sähköposti" required>
+<br>
+<br>
+</fieldset>
+<br>
+<fieldset>
+	<legend>Lisätiedot</legend>
+		<label for="owntextarea">Tekstialue(80x4) :</label> <br>
+			<textarea id="owntextarea" name="owntextarea" rows="4" cols="80"></textarea><br>
+	
+	<label for="lisatietoja">Haluan lisätietoja:</label>
+			<input type="checkbox" id="lisatietoja" name="lisatietoja"> <br>
+		
+	<label for="varit">Värit:</label><br>
+	<select id="varit" name="varit">
+				<option value="red">Punainen</option>
+					<option value="green">Vihreä</option>
+						<option value="blue">Sininen</option>
+	</select>
+	</fieldset>
+		
+		<br><br>
+				<input type="submit" value="Lisää uusi käyttäjä">
+			</form>
+
+
+
+
+</body>
+</html>
